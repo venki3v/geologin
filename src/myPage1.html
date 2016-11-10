@@ -1,0 +1,29 @@
+
+<script	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+
+
+<script  type="text/javascript" src="myController.js"></script>
+<link rel="stylesheet" href="style.css">
+
+<div ng-app="myModule">
+
+
+<div ng-controller="ControllerOne" class="user-page">
+	<div>
+		<img class="user-logo" src="images/tableau.png">
+	</div>
+	<h4 class="user-head">Sign in</h4>
+    <form>
+		<label  class="user-head1">User Email :</label>
+		<div class="user-email">
+			<input  class="user-details" type="userEmail" ng-model="userEmail" placeholder="Please enter your username" required>
+		</div>
+<!-- <img src="imageURl"> -->
+		<span ng-show="message.length >0">{{message}}</span>
+		<div class="user-auth">
+			<input class="user-btn2" type="button" ng-click="cancel()" value="clear"></input>
+			<input class="user-btn1" type="submit" ng-click="verifyAndSubmit(userEmail)" value="Submit"></input>
+		</div>
+	</form>
+</div>
+</div>			
