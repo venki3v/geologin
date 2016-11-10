@@ -9,8 +9,8 @@
 } 
 
 .user-logo{
-	width:150px;
-	height:41px;
+	width:350px;
+	height:80px;
 	
 }
 
@@ -30,7 +30,7 @@
 }
 
 .user-details{
-	width: 280px;
+	width: 300px;
 	height: 30px;
 }
 .user-email,h3,span{
@@ -38,12 +38,13 @@
 }
 
 .user-email input{
-	margin-left:15px;
+	margin-left:14px;
+	margin-top: 10px;
 }
 
 .user-auth{
 	float:right;
-	margin: 40px 50px 10px 10px;
+	margin: 40px 28px 10px 10px;
 }
 
 
@@ -51,7 +52,7 @@
 	margin-right: 30px;
 	width: 115px;
     height: 35px;
-    background: #7bad49;
+    background: #0079a9;
     color: white;
     border-radius: 5px;
 }
@@ -59,7 +60,7 @@
 .user-btn1{
 	width: 115px;
     height: 35px;
-    background: #7bad49;
+    background: #0079a9;
     color: white;
     border-radius: 5px;
 }
